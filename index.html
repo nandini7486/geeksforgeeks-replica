@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-container">
+    <img src="1280px-GeeksforGeeks.svg.png" alt="logo" class="center-image">
+    </div>
+
+    <div class="titlebar1">
+        <div id="content-area">
+            <div id="Linkss" class="content-section">
+        <a href="https://www.geeksforgeeks.org/sql-tutorial/?ref=shm">Databases</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/sql-tutorial/?ref=shm">SQL</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/mysql-tutorial/?ref=shm">MySQL</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/postgresql-tutorial/?ref=shm">PostgreSQL</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/pl-sql-tutorial/?ref=shm">PL/SQL</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/mongodb-tutorial/?ref=shm">MongoDB</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/sql-cheat-sheet/?ref=shm">SQL Cheat Sheet</a>&emsp;
+        <!-- <a href="https://www.geeksforgeeks.org/sql-interview-questions/?ref=shm">SQL Interview Questions</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/mysql-interview-questions/?ref=shm">MySQL Interview Questions</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/pl-sql-interview-questions/?ref=shm">PL/SQL Interview Questions</a>&emsp;
+        <a href="https://www.geeksforgeeks.org/learn-sql-databases/?ref=shm">Learn SQL & Databases</a> -->
+    </div>
+</div>
+
+             
+
+    <div class="container">
+        <div class="side-menu">
+            <div class="menu-item">
+                <div class="menu-title">Share Your Experiences</div>
+                <!-- Sub-menu items if any -->
+          </div>
+
+
+          <div class="side-menu">  
+    <div class="menu-item">
+        <div class="menu-title">SQL Basics</div>
+        <div class="sub-menu">
+            <a href="#" id="what-is-database">What is Database?</a>
+            <a href="#" id="types-of-databases">Types of Databases</a>
+            <a href="#" id="dbms-intro">Introduction of DBMS (Database Management System)</a>
+            <a href="#" id="non-relational-db">Non-Relational Databases and Their Types</a>
+            <a href="#" id="what-is-sql">What is SQL?</a>
+            <a href="#" id="sql-data-types">SQL Data Types</a>
+            <a href="#" id="sql-operators">SQL Operators</a>
+            <a href="#" id="sql-commands">SQL Commands | DDL, DQL, DML, DCL and TCL Commands</a>
+        </div>
+    </div>
+</div>
+
+
+  
+    
+
+
+            <div class="menu-item">
+                <div class="menu-title">SQL Tutorial</div>
+
+                <div class="sub-menu">
+                    <a href="#">Create Database in SQL</a>
+                    <a href="#">Tables in SQL</a>
+                    <a href="#">SQL Queries</a>
+                    <a href="#">SQL Clauses</a>
+                    <a href="#">SQL Operators</a>
+                    <a href="#">SQL Aggregate Functions</a>
+                    <a href="#">SQL Data Constraints</a>
+                    <a href="#">SQL Joining Data</a>
+                    <a href="#">SQL Functions</a>
+                    <a href="#">SQL Indexes</a>
+                    <a href="#">SQL Miscellaneous Topics</a>
+                </div>
+            </div>
+
+            <div class="side-menu">  
+              <div class="menu-item">
+                <div class="menu-title">SQL Basics</div>
+                <div class="sub-menu">
+                    <a href="#">What is Database?</a>
+                    <a href="#">Types of Databases</a>
+                    <a href="#">Introduction of DBMS (Database Management System)</a>
+                    <a href="#">Non-Relational Databases and Their Types</a>
+                    <a href="#">What is SQL?</a>
+                    <a href="#">SQL Data Types</a>
+                    <a href="#">SQL Operators</a>
+                    <a href="#">SQL Commands | DDL, DQL, DML, DCL and TCL Commands</a>
+                </div>
+            </div>
+        </div>
+    <div class="side-menu">
+        <div class="menu-item">
+            <div class="menu-title">Create Database in SQL</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL CREATE DATABASE</a>
+                <a href="#" class="sub-item">SQL DROP DATABASE</a>
+                <a href="#" class="sub-item">SQL Query to Rename Database</a>
+                <a href="#" class="sub-item">SQL Select Database</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">Tables in SQL</div>
+            <div class="sub-menu">
+                <a href="#CREATE-DATABASE" class="sub-item">SQL CREATE DATABASE</a>
+                <a href="#DROP-DATABASE" class="sub-item">SQL DROP TABLE</a> <!-- Removed extra space -->
+                <a href="#DELETE-DATABASE" class="sub-item">SQL DELETE Statement</a> <!-- Fixed the spelling mistake -->
+
+                <a href="#ALTER-(RENAME)-in-SQL" class="sub-item">ALTER (RENAME) in SQL</a>
+                <a href="#" class="sub-item">DROP and TRUNCATE in SQL</a>
+                <a href="#" class="sub-item">SQL Query to Copy, Duplicate or Backup Table</a>
+                <a href="#" class="sub-item">What is Temporary Table in SQL?</a>
+                <a href="#" class="sub-item">SQL ALTER TABLE</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Queries</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL SELECT Query</a>
+                <a href="#" class="sub-item">SQL TOP, LIMIT, FETCH FIRST Clause</a>
+                <a href="#" class="sub-item">SQL SELECT FIRST</a>
+                <a href="#" class="sub-item">SQL - SELECT LAST</a>
+                <a href="#" class="sub-item">SQL - SELECT RANDOM</a>
+                <a href="#" class="sub-item">SQL SELECT IN Statement</a>
+                <a href="#" class="sub-item">SQL - SELECT DATE</a>
+                <a href="#" class="sub-item">SQL Query to Insert Multiple Rows</a>
+                <a href="#" class="sub-item">SQL INSERT INTO Statement</a>
+                <a href="#" class="sub-item">SQL UPDATE Statement</a>
+                <a href="#" class="sub-item">SQL DELETE Statement</a>
+                <a href="#" class="sub-item">SQL Query to Delete Duplicate Rows</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Clauses</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL | WHERE Clause</a>
+                <a href="#" class="sub-item">SQL | WITH Clause</a>
+                <a href="#" class="sub-item">SQL HAVING Clause with Examples</a>
+                <a href="#" class="sub-item">SQL ORDER BY</a>
+                <a href="#" class="sub-item">SQL | GROUP BY</a>
+                <a href="#" class="sub-item">SQL LIMIT Clause</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Operators</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL AND and OR Operators</a>
+                <a href="#" class="sub-item">SQL LIKE Operator</a>
+                <a href="#" class="sub-item">SQL IN Operator</a>
+                <a href="#" class="sub-item">SQL NOT Operator</a>
+                <a href="#" class="sub-item">SQL NOT EQUAL Operator</a>
+                <a href="#" class="sub-item">SQL IS NULL</a>
+                <a href="#" class="sub-item">SQL UNION Operator</a>
+                <a href="#" class="sub-item">SQL UNION ALL</a>
+                <a href="#" class="sub-item">SQL | Except Clause</a>
+                <a href="#" class="sub-item">SQL BETWEEN Operator</a>
+                <a href="#" class="sub-item">SQL | ALL and ANY</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Aggregate Functions</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL Aggregate functions</a>
+                <a href="#" class="sub-item">SQL COUNT(), AVG() and SUM() Function</a>
+                <a href="#" class="sub-item">SQL MIN() and MAX() Functions</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Data Constraints</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL NOT NULL Constraint</a>
+                <a href="#" class="sub-item">SQL | UNIQUE Constraint</a>
+                <a href="#" class="sub-item">SQL PRIMARY KEY Constraint</a>
+                <a href="#" class="sub-item">SQL FOREIGN KEY Constraint</a>
+                <a href="#" class="sub-item">Composite Key in SQL</a>
+                <a href="#" class="sub-item">SQL - ALTERNATE KEY</a>
+                <a href="#" class="sub-item">SQL | CHECK Constraint</a>
+                <a href="#" class="sub-item">SQL | DEFAULT Constraint</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Joining Data</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL Joins (Inner, Left, Right and Full Join)</a>
+                <a href="#" class="sub-item">SQL Outer Join</a>
+                <a href="#" class="sub-item">SQL LEFT JOIN</a>
+                <a href="#" class="sub-item">SQL RIGHT JOIN</a>
+                <a href="#" class="sub-item">SQL FULL JOIN</a>
+                <a href="#" class="sub-item">SQL CROSS JOIN</a>
+                <a href="#" class="sub-item">SQL Self Join</a>
+                <a href="#" class="sub-item">SQL | UPDATE with JOIN</a>
+                <a href="#" class="sub-item">SQL DELETE JOIN</a>
+                <a href="#" class="sub-item">Recursive Join in SQL</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Functions</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL Date and Time Functions</a>
+                <a href="#" class="sub-item">SQL | String functions</a>
+                <a href="#" class="sub-item">SQL | Numeric Functions</a>
+                <a href="#" class="sub-item">SQL - Statistical Functions</a>
+                <a href="#" class="sub-item">Working With JSON in SQL</a>
+                <a href="#" class="sub-item">Conversion Function in SQL</a>
+                <a href="#" class="sub-item">SQL Data Types</a>
+                <a href="#" class="sub-item">SQL LTRIM() Function</a>
+                <a href="#" class="sub-item">SQL UPPER() Function</a>
+                <a href="#" class="sub-item">SQL RTRIM() Function</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Indexes</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL Indexes</a>
+                <a href="#" class="sub-item">SQL CREATE INDEX Statement</a>
+                <a href="#" class="sub-item">SQL DROP INDEX Statement</a>
+                <a href="#" class="sub-item">Difference Between Clustered and Non-Clustered Index</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-title">SQL Miscellaneous Topics</div>
+            <div class="sub-menu">
+                <a href="#" class="sub-item">SQL Wildcard Characters</a>
+                <a href="#" class="sub-item">SQL Comments</a>
+                <a href="#" class="sub-item">Pivot and Unpivot in SQL</a>
+                <a href="#" class="sub-item">SQL Injection</a>
+                <a href="#" class="sub-item">SQL Performance Tuning</a>
+                <a href="#" class="sub-item">SQL Stored Procedures</a>
+                <a href="#" class="sub-item">SQL TRANSACTIONS</a>
+                <a href="#" class="sub-item">SQL | Subquery</a>
+                <a href="#" class="sub-item">SQL | SEQUENCES</a>
+                <a href="#" class="sub-item">SQL Auto Increment</a>
+                <a href="#" class="sub-item">Window functions in SQL</a>
+                <a href="#" class="sub-item">How to Get Current Date and Time in SQL?</a>
+                <a href="#" class="sub-item">What is Cursor in SQL?</a>
+                <a href="#" class="sub-item">CTE in SQL</a>
+                <a href="#" class="sub-item">Dynamic SQL</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- <div id="content-area">
+    <div id="content-MySQL-Tutorial" class="content-section">
+        <h1>SQL Tutorial</h1>
+        <h3>Last Updated : 26 Aug, 2024
+        </h3>
+        -------------------------------------------------------------------------------------------------------------------
+        <p>This <b>MySQL Tutorial</b>  is made for both<b> beginners</b> and <b>experienced</b> professionals. Whether you’re starting with MYSQL basics or diving into advanced concepts, this free tutorial is the ideal guide to help you learn and understand <B>MYSQL</B>, no matter your skill level.</p>
+        <p>From setting up your database to performing complex queries and database administration tasks, we’ll guide you through each step with clear explanations and practical examples. Dive into our MySQL tutorial and discover how to manage and optimize your databases efficiently, ensuring robust data management for your applications.</p>
+
+    </div> -->
+
+    <div id="content-area">
+        <!-- SQL Tutorial Section -->
+        <div id="content-MySQL-Tutorial" class="content-section">
+            <h1>SQL Tutorial</h1>
+            <p>This <b>MySQL Tutorial</b> is made for both <b>beginners</b> and <b>experienced</b> professionals. Whether you’re starting with MYSQL basics or diving into advanced concepts, this free tutorial is the ideal guide to help you learn and understand <b>MYSQL</b>, no matter your skill level.</p>
+            <p>From setting up your database to performing complex queries and database administration tasks, we’ll guide you through each step with clear explanations and practical examples. Dive into our MySQL tutorial and discover how to manage and optimize your databases efficiently, ensuring robust data management for your applications.</p>
+        </div>
+    
+        <!-- What is Database Section -->
+        <div id="content-what-is-database" class="content-section">
+            <h2>What is Database?</h2>
+         <p>A <b>database</b> is a digital system designed for the <b>storage and arrangement</b> of data. Think of it as an online filing system that allows you to store and quickly access a vast amount of information. Databases facilitate the efficient management of data, enabling the simple <b>addition, modification, removal, and access</b>  of information. They serve numerous uses such as websites, applications, and enterprises to manage extensive data in an organized and secure manner.</p>
+            </div>
+    
+        <!-- Types of Databases Section -->
+        <div id="content-types-of-databases" class="content-section">
+            <h2>Types of Databases</h2>
+            <p>Databases can be classified into several types based on their structure and usage. The most common types include relational databases, which organize data into tables with rows and columns, and non-relational databases, which store data in formats like documents, key-value pairs, or graphs.</p>
+            <p>Relational databases use SQL for querying and managing data. Examples include MySQL and PostgreSQL. Non-relational databases, also known as NoSQL databases, include MongoDB and Cassandra, which are designed for handling unstructured data and scaling horizontally.</p>
+            <p>Another type of database is the object-oriented database, which stores data in objects as used in object-oriented programming languages. Understanding the different types of databases helps in choosing the right database system for specific application needs.</p>
+        </div>
+
+
+        <div id="content-types-of-databases" class="content-section">
+            <h2>What is MySQL?</h2>
+            <p> MySQL is an open-source<a href="https://www.geeksforgeeks.org/rdbms-full-form/"> <b>Relational Database Management System (RDBMS)</b> </a>that uses Structured Query Language (SQL) to manage data. Developed by MySQL AB and now owned by Oracle Corporation, it’s widely used due to its reliability, speed, and ease of use. MySQL is a key component in many web applications, forming the backbone of popular websites and services.</p>
+          
+            <p>It allows users to <b> create, modify, and maintain</b> databases, supporting operations like data <b>insertion, querying, updating,</b>and deletion. Ideal for both small and large-scale applications, MySQL powers various types of systems, from personal projects to complex enterprise environments.</p>
+           <p> MySQL is a Relational<b> Database Management System (RDBMS)</b> software that provides many features, which are as follows:</p>
+    <ul>
+        <li><b>Data Storage:</b> Efficiently stores large amounts of data.
+        </li>
+        <li><b>Data Retrieval:</b> Allows quick and easy access to data. </li>
+        <li><b>Data Manipulation: </b> Supports operations like inserting, updating, and deleting data.</li>
+        <li><b>Data Security:</b> Offers robust security features to protect data.</li>
+        <li><b>Scalability:</b> Can handle small to large applications with ease.</li>
+    </ul>
+        </div>
+            <br><br><br><br>
+        <div id="CREATE-DATABASE" class="content-section">
+
+
+            <h1>SQL CREATE DATABASE</h1>
+            <p><b>SQL CREATE DATABASE</b> statement creates a new database in SQL-based DBMS.</p>
+            <br>
+            <h2>CREATE DATABASE in SQL
+            </h2>
+            <p>The <b>CREATE DATABASE query in SQL,</b> is used to create a new database in the database management system. It is also used in<a href="https://www.geeksforgeeks.org/mysql-tutorial/"> MySQL</a> and other relational database management systems (RDBMS) to create databases.</p>
+            
+            <h2><b>Syntax</b></h2>
+
+         <p>The syntax to use the CREATE DATABASE command in SQL is:</p>
+        <p> CREATE DATABASE database_name; </p>
+
+        </div>
+
+        <div id="DROP-DATABASE" class="content-section">
+            <h1>SQL-DROP-Statement</h1>
+            <p> In SQL, the `DROP TABLE` statement is used to delete an entire table from the database permanently. When you drop a table, all the data within the table, as well as the table structure itself, are removed. This action is irreversible, meaning that once the table is dropped, it cannot be recovered unless there is a backup. The syntax is straightforward: `DROP TABLE table_name;`. It's important to exercise caution when using this command, as it will delete all records and any relationships associated with the table.</p>
+            <p>Syntax:</p>
+            <p>DROP USER 'user'@'host';</p> 
+        <p>Parameters:</p>
+        <ol>
+            <li>User:It is the user name of the user account you want to drop.</li>
+            <li>Host:It is the host server name of the user account.The user name should be in the following format
+            <P><b>  ‘user_name’@’host_name’.</b> </P> 
+                </li>
+        </ol>  
+        <img src="Screen-Shot-2017-12-23-at-3.51.51-AM.png" alt="ex_png" class="drop-ex">
+        </div>
+    
+
+            <div id="DELETE-DATABASE" class="content-section">
+                <h1>SQL DELETE Statement</h1>
+                <p>The `DELETE` statement in SQL is used to remove one or more rows from a table based on a specified condition. Unlike `DROP TABLE`, which removes the entire table structure and its data, `DELETE` only affects the rows within the table while preserving the table's structure. The syntax for the `DELETE` statement is: `DELETE FROM table_name WHERE condition;`. If no condition is specified, all rows in the table will be deleted, but the table itself and its structure will remain intact. It’s important to use the `WHERE` clause to target specific rows to avoid accidentally deleting more data than intended.</p>
+            <p>SQL DELETE is a basic SQL operation used to delete data in a database. SQL DELETE is an important part of database management DELETE can be used to selectively remove records from a database table based on certain conditions. This SQL DELETE operation is important for database size management, data accuracy, and integrity.</p>    
+            <p>Syntax:</p>
+            <p>DELETE FROM table_name</p>
+
+              <p> WHERE some_condition;</p>
+              <p>Parameter Explanation:</p>
+             <ul>
+                <li>Some_condition: condition to choose a particular record.</li>
+                <li>table_name: name of the table</li>
+             </ul>
+             <p><b>Note:</b> We can delete single as well as multiple records depending on the condition we provide in the WHERE clause. If we omit the WHERE clause then all of the records will be deleted and the table will be empty. </p>
+             <p>The sample table is as follows GFG_Employees:</p>
+             <p><b>Query:</b>
+
+              <P>  Assume we have created a table named GFG_Employee which contains the personal details of the Employee including their id, name, email and department etc. as shown below −</p>
+         <table>  <p>CREATE TABLE GFG_Employees (<br>
+                id INT PRIMARY KEY,<br>
+                name VARCHAR (20) ,<br>
+                email VARCHAR (25),<br>
+                department VARCHAR(20)<br>
+             );<br>
+             INSERT INTO GFG_Employees (id, name, email, department) VALUES <br>
+             (1, 'Jessie', 'jessie23@gmail.com', 'Development'),<br>
+             (2, 'Praveen', 'praveen_dagger@yahoo.com', 'HR'),<br>
+             (3, 'Bisa', 'dragonBall@gmail.com', 'Sales'),<br>
+             (4, 'Rithvik', 'msvv@hotmail.com', 'IT'),<br>
+             (5, 'Suraj', 'srjsunny@gmail.com', 'Quality Assurance'),<br>
+             (6, 'Om', 'OmShukla@yahoo.com', 'IT'),<br>
+             (7, 'Naruto', 'uzumaki@konoha.com', 'Development');<br>
+             Select * From GFG_Employees</p><br>
+            </table> 
+
+             <p>Output:</p>
+
+             <img src="Screenshot-from-2023-03-31-15-22-58-(1).png">
+        </div>
+
+        <div id="ALTER-(RENAME)-in-SQL">
+            <h1>ALTER (RENAME) in SQL</h1>
+            <p>Sometimes we may want to rename our table to give it a more relevant name. For this purpose, we can use ALTER TABLE to rename the name of the table. SQL ALTER TABLE is a command used to modify the structure of an existing table in a database. Here we will discuss Alter Command in SQL in detail.</p>
+            <h2>Alter in SQL</h2>
+            <p>Here we are discussing the syntax of Alter Command in different Databases like MYSQL, MariaDB, Oracle, etc. Let’s proceed with Syntax first.
+
+            </p>
+            <p>Syntax:</p>
+            <p>ALTER TABLE table_name</p> 
+            <p> RENAME TO new_table_name;</p>
+          <p>Columns can also be given a new name with the use of <a href="https://www.geeksforgeeks.org/sql-alter-add-drop-modify/"> ALTER TABLE</a> </p> 
+          <p><b>Query:</b></p> 
+         
+          <P>CREATE TABLE Student (<br>
+            id INT PRIMARY KEY,<br>
+            name VARCHAR(50),<br>
+            age INT,<br>
+            email VARCHAR(50),<br>
+            phone VARCHAR(20)<br>
+          );</P>
+          <p>Let’s <a href="https://www.geeksforgeeks.org/sql-insert-statement/">insert </a>some data and then perform ALTER operation to understand better bout alter command.</p>
+             <p><b>INSERT the data in Student Table</b></p>
+          <p>INSERT INTO Student (id, name, age, email, phone) <br>
+                VALUES <br>
+                (1, 'Amit', 20, 'amit@gmail.com', '9999999999'),<br>
+                (2, 'Rahul', 22, 'rahul@yahoo.com', '8888888888'),<br>
+                (3, 'Priya', 21, 'priya@hotmail.com', '7777777777'),<br>
+                (4, 'Sonia', 23, 'sonia@gmail.com', '6666666666'),<br>
+                (5, 'Kiran', 19, 'kiran@yahoo.com', '5555555555');<Br></p>
+                    <p><b>Output:</b></p>
+                    <img src="Screenshot_58.png">
+                    <p>Now,</p>
+                    <p>Change the name of column name to FIRST_NAME in table Student. To change the column name of the existing table you have to use Column keyword before writing the existing column name to change</p>
+                    <p><b>Syntax:</b></p>
+                    <p><i>ALTER TABLE Student RENAME COLUMN Column_NAME TO FIRST_NAME;</i></p>
+                    <p><b>Query:</b></p>
+                    <p><i>ALTER TABLE Student RENAME Column name TO FIRST_NAME;</i></p>
+                    <p>Output:</p>
+                    <img src="Screenshot_59.png">
+                </div>
+            
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+

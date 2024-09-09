@@ -1,0 +1,94 @@
+/* Sidebar Style */
+.side-menu {
+    width: 250px;
+    background-color: #e9ecef;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding-top: 10px;
+    display: block;
+}
+
+/* Center image horizontally */
+.center-image {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     /* Optional: to control the width of the image */
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+
+/* Main Topic */
+.menu-item {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    display: block;
+}
+
+/* Title of the menu */
+.menu-title {
+    padding: 10px;
+    background-color: #e9ecef;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    color: #333;
+    z-index: 1; /* Ensure menu title is above other elements */
+}
+
+/* V-sign Styling */
+.menu-title::after {
+    content: '▶'; /* Default arrow */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+    pointer-events: none; /* Ensure the click goes to the parent element */
+}
+
+/* When active, rotate the arrow */
+.menu-title.active::after {
+    content: '▼'; /* Downward arrow */
+}
+
+/* Sub-menu */
+.sub-menu {
+    display: none;
+    padding-left: 20px;
+    display: block;
+}
+
+/* Sub-menu links styling */
+.sub-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Active sub-menu item */
+.sub-menu a.active {
+    background-color: #28a745; /* Green when clicked */
+    color: white;
+    font-weight: bold;
+}
+
+.sub-menu a:hover {
+    background-color: #e9ecef; /* Hover effect */
+}
+
+#content-area {
+    margin-left: 270px; /* Ensure there's enough space for the sidebar */
+    padding: 20px;
+}
